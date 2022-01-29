@@ -1,4 +1,4 @@
-:root {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,4 +21,10 @@
 
   gap: 1rem;
   margin: 1rem;
+}
+.pd-side-05 {
+  padding: 0rem 0.5rem;
+}
+.margin-y-05 {
+  margin: 0.5rem 0rem;
 }
