@@ -4,6 +4,8 @@
   padding: 0;
   --success-color: #4caf50;
   --danger-color: #d31609;
+  --primary-color: #4895ef;
+  --warning-color: #ff9800;
 }
 .example-div {
   margin: 1rem;
