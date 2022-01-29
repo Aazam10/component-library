@@ -1,7 +1,3 @@
-:root {
-  --primary-color: #4895ef;
-}
-
 .btn {
   width: max-content;
   padding: 0.8rem 1rem;
@@ -24,7 +20,7 @@
   background-color: var(--danger-color);
 }
 .btn-warning {
-  background-color: #ff9800;
+  background-color: var(--warning-color);
 }
 /* OUTLINE BUTTON */
 
@@ -52,9 +48,9 @@
   background-color: var(--danger-color);
 }
 .btn-outline-warning {
-  color: #ff9800;
+  color: var(--warning-color);
   border: 1px solid #ff9800;
 }
 .btn-outline-warning:hover {
-  background-color: #ff9800;
+  background-color: var(--warning-color);
 }

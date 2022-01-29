@@ -8,7 +8,7 @@
   margin: 0.5rem 0;
 }
 .primary {
-  background-color: #4895ef;
+  background-color: var(--primary-color);
 }
 .error {
   background-color: var(--danger-color);
@@ -17,12 +17,12 @@
   background-color: var(--success-color);
 }
 .warning {
-  background-color: #ff9800;
+  background-color: var(--warning-color);
 }
 .outline-primary {
-  border: 1px solid #4895ef;
+  border: 1px solid var(--primary-color);
   background-color: white;
-  color: #4895ef;
+  color: var(--primary-color);
 }
 .outline-success {
   border: 1px solid var(--success-color);
@@ -35,7 +35,7 @@
   color: var(--danger-color);
 }
 .outline-warning {
-  border: 1px solid #ff9800;
+  border: 1px solid var(--warning-color);
   background-color: white;
-  color: #ff9800;
+  color: var(--warning-color);
 }
