@@ -1,0 +1,15 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --success-color: #4caf50;
+  --danger-color: #d31609;
+}
+.example-div {
+  margin: 1rem;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
