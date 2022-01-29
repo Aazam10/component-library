@@ -8,8 +8,8 @@
   --warning-color: #ff9800;
 }
 .example-div {
-  margin: 1rem;
-  width: 80vw;
+  margin: 1rem auto;
+  width: 50vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,8 +19,8 @@
 .alert-box {
   flex-direction: column;
 
-  gap: 1rem;
-  margin: 1rem;
+  /* gap: 1rem;
+  margin: 1rem; */
 }
 .pd-side-05 {
   padding: 0rem 0.5rem;
