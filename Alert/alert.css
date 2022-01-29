@@ -1,45 +1,38 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.alert-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50vw;
-  gap: 1rem;
-  margin: 1rem;
-}
 .alert {
   width: 100%;
-
+  box-sizing: border-box;
   padding: 1rem 1.5rem;
   color: white;
   border-radius: 5px;
   opacity: 0.9;
   margin: 0.5rem 0;
 }
-
+.primary {
+  background-color: #4895ef;
+}
 .error {
-  background-color: #f44336;
+  background-color: var(--danger-color);
 }
 .success {
-  background-color: #4caf50;
+  background-color: var(--success-color);
 }
 .warning {
   background-color: #ff9800;
 }
-.outline-success {
-  border: 1px solid #4caf50;
+.outline-primary {
+  border: 1px solid #4895ef;
   background-color: white;
-  color: #4caf50;
+  color: #4895ef;
+}
+.outline-success {
+  border: 1px solid var(--success-color);
+  background-color: white;
+  color: var(--success-color);
 }
 .outline-error {
-  border: 1px solid #f44336;
+  border: 1px solid var(--danger-color);
   background-color: white;
-  color: #f44336;
+  color: var(--danger-color);
 }
 .outline-warning {
   border: 1px solid #ff9800;
