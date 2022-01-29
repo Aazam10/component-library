@@ -54,3 +54,31 @@
 .btn-outline-warning:hover {
   background-color: var(--warning-color);
 }
+.btn-link {
+  background-color: var(--primary-color);
+  color: white;
+}
+.link-default {
+  text-decoration: none;
+  color: white;
+}
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+.btn-icon-text {
+  margin: 0;
+}
+/* FLOATING ACTION BUTTON */
+.btn-floating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 1.5rem;
+  height: 1.5rem;
+}

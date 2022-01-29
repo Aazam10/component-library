@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Button</title>
-    <link rel="stylesheet" href="../utility.css" />
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
+
     <link rel="stylesheet" href="button.css".css">
+    <link rel="stylesheet" href="../utility.css" />
   </head>
   <body>
     <div class="example-div">
@@ -18,6 +20,19 @@
       <button class="btn btn-outline btn-outline-success">Success</button>
       <button class="btn btn-outline btn-outline-error">Error</button>
       <button class="btn btn-outline btn-outline-warning">Warning</button>
+      <!-- LINK BUTTON -->
+      <button class="btn btn-link">
+        <a href="#" class="link-default">Link</a>
+      </button>
+      <!-- ICON BUTTON -->
+      <div class="btn btn-primary">
+        <div class="btn-icon">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <p class="btn-icon-text">Add to Cart</p>
+        </div>
+      </div>
+      <!-- FLOATING ACTION BUTTON -->
+      <div class="btn btn-primary btn-floating">+</div>
     </div>
   </body>
 </html>
