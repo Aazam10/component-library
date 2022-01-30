@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +7,7 @@
   --danger-color: #d31609;
   --primary-color: #4895ef;
   --warning-color: #ff9800;
+  font-family: "Roboto", sans-serif;
 }
 .example-div {
   margin: 1rem auto;
@@ -18,13 +20,23 @@
 }
 .alert-box {
   flex-direction: column;
-
-  /* gap: 1rem;
-  margin: 1rem; */
 }
 .pd-side-05 {
   padding: 0rem 0.5rem;
 }
 .margin-y-05 {
   margin: 0.5rem 0rem;
+}
+.pd-02 {
+  padding: 2rem;
+}
+.margin-02 {
+  margin: 2rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
 }
