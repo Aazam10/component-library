@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 80%;
+}
+.nav-pills {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0rem;
+}
+.nav-pills li {
+  margin: 0 1rem;
+}
+.nav-pills a {
+  color: rgb(90, 90, 90);
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.header-logo:hover {
+  color: var(--primary-color);
+}
+.nav-icon:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: 90%;
+  }
+}

@@ -1,0 +1,24 @@
+.main {
+  padding-top: 7rem;
+  text-align: center;
+}
+.main-head {
+  font-size: 3rem;
+  font-weight: 900;
+  max-width: 45rem;
+  margin: auto;
+  width: 80%;
+}
+.main-subhead {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  max-width: 45rem;
+  margin: auto;
+  padding: 1.5rem 0rem;
+  width: 80%;
+}
+.main .main-button {
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+}
