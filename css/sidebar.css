@@ -18,8 +18,12 @@
   align-items: center;
   color: #444444;
 }
-.sidebar-sub-topic a:hover {
+.sidebar-sub-topic .sidebar-active {
   color: var(--primary-color);
+}
+.sidebar-sub-topic li:hover {
+  background-color: var(--primary-color-light);
+  font-weight: 600;
 }
 @media screen and (max-width: 800px) {
   .sidebar {
