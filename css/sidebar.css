@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: #fff;
+  flex: 0 0 250px;
+  margin-right: 3rem;
+}
+.sidebar-main-topic {
+  border-bottom: 1px solid #d9d9d9;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+.sidebar-sub-topic li {
+  font-weight: 400;
+  padding: 0.5rem 1.7rem;
+}
+.sidebar-sub-topic a {
+  display: flex;
+  align-items: center;
+  color: #444444;
+}
+.sidebar-sub-topic .sidebar-active {
+  color: var(--primary-color);
+}
+.sidebar-sub-topic li:hover {
+  background-color: var(--primary-color-light);
+  font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -3,9 +3,8 @@
   align-items: center;
   justify-content: space-between;
   font-weight: 600;
-  font-size: 2rem;
-  margin: 0 auto;
-  width: 80%;
+  font-size: 1.5rem;
+  width: 100%;
 }
 .nav-pills {
   display: flex;
@@ -27,10 +26,4 @@
 }
 .nav-icon:hover {
   color: var(--primary-color);
-}
-
-@media screen and (max-width: 1200px) {
-  .header {
-    width: 90%;
-  }
 }
