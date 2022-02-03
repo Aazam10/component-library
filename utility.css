@@ -33,8 +33,8 @@
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  text-align: center;
 }
+
 .doc-content-desc {
   color: var(--heading-seconday-color);
   font-weight: 400;
@@ -58,6 +58,10 @@
   width: 100%;
   margin: auto;
   padding: 0;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .footer {
@@ -71,6 +75,7 @@
 .footer-next-page {
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
 
 .footer-prev-page:hover,
@@ -78,13 +83,21 @@
   color: var(--primary-color);
 }
 .example-div {
-  margin: 1rem auto;
-  width: 50vw;
+  border-radius: 4px;
+  background-color: #f5f7f9;
+  min-height: 100px;
+
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .alert-box {
