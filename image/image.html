@@ -5,29 +5,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image</title>
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
     <link rel="stylesheet" href="../utility.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <link rel="stylesheet" href="image.css" />
   </head>
   <body>
-    <div class="example-div alert-box">
-      <h2>Square image</h2>
-      <img
-        src="../IMAGES/image1.jpg"
-        alt="image-square"
-        class="image image-square"
-      />
-      <h2>Round Image</h2>
-      <img
-        src="../IMAGES/image2.jpg"
-        alt="image-round"
-        class="image image-round"
-      />
-      <h2>Responsive Image</h2>
-      <img
-        src="..//IMAGES/image1.jpg"
-        alt="responsive-image"
-        class="image-responsive"
-      />
+    <div class="container">
+      <header class="header pd-02">
+        <a href="../index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../usage/usage.html">Usage</a></li>
+          </ul>
+
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#">Alert</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#" class="sidebar-active">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Responsive Image</div>
+          <div class="doc-content-desc">
+            Responsive Image Components are used to dsiplay Images on websites,
+            which are screen responsive. They expand upto the width of the
+            container they are in.
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Square Image-->
+
+          <div class="doc-content-subtitle">Square Image</div>
+          <div class="doc-content-desc">
+            Square Images are square shaped, with a default dimension of 8rem X
+            8rem.
+          </div>
+          <div class="example-div">
+            <img
+              src="../IMAGES/image1.jpg"
+              alt="image-square"
+              class="image image-square"
+            />
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="image-square"
+              class="image image-square"
+            />
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253C--%2520Using%2520image-square%2520as%2520class%2520name%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Fimage1.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image-square%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2520image-square%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Round Image -->
+
+          <div class="doc-content-subtitle">Round Image</div>
+          <div class="doc-content-desc">
+            Round Images are circular, with a default dimension of 8rem X 8rem.
+          </div>
+          <div class="example-div">
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="image-round"
+              class="image image-round"
+            />
+            <img
+              src="../IMAGES/image2.jpg"
+              alt="image-round"
+              class="image image-round"
+            />
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253C--%2520Using%2520image-round%2520as%2520class%2520name%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image-round%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image%2520image-round%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Full Width Image -->
+          <div class="doc-content-subtitle">Full Width Image</div>
+          <div class="doc-content-desc">
+            Full Width Image is the one that expands to cover the container it
+            is present in.
+          </div>
+          <div class="example-div">
+            <img
+              src="..//IMAGES/image1.jpg"
+              alt="responsive-image"
+              class="image-responsive"
+            />
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253C--%2520Using%2520image-responsive%2520as%2520class%2520name%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F%252FIMAGES%252Fimage1.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522responsive-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../Card/card.html">Card</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../input/input.html">Input</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>

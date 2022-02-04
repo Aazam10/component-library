@@ -31,7 +31,13 @@
 .doc-content-title {
   color: var(--heading-seconday-color);
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.doc-content-subtitle {
+  color: var(--heading-seconday-color);
+  font-size: 1.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
