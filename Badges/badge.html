@@ -8,35 +8,168 @@
     <script src="https://use.fontawesome.com/35bf05a347.js"></script>
     <link rel="stylesheet" href="../utility.css" />
     <link rel="stylesheet" href="../Avatar/avatar.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <link rel="stylesheet" href="badge.css" />
   </head>
   <body>
-    <div class="example-div">
-      <!-- AVATAR WITH BADGE -->
-      <div class="badge-wrapper">
-        <img
-          src="../IMAGES/avatar2.jpg"
-          alt="avatar-2 "
-          class="avatar avatar-medium"
-        />
-        <div class="badge online"></div>
-      </div>
-      <div class="badge-wrapper">
-        <img
-          src="../IMAGES/avatar2.jpg"
-          alt="avatar-2 "
-          class="avatar avatar-medium"
-        />
-        <div class="badge offline"></div>
-      </div>
-      <!-- ICON WITH BADGE -->
-      <div class="badge-wrapper">
-        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
-        <div class="badge-number">10</div>
-      </div>
-      <div class="badge-wrapper">
-        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <div class="badge-number">99+</div>
+    <div class="container">
+      <header class="header pd-02">
+        <a href="../index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../usage/usage.html">Usage</a></li>
+          </ul>
+
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#">Alert</a></li>
+            <li><a href="#" class="sidebar-active">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Badge</div>
+          <div class="doc-content-desc">
+            Badges are small circles, positioned either at top-right or
+            bottom-right of the parent component. Badge can be used to display
+            numbers, online / offline status, depending on where they are used.
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Profile Badge -->
+
+          <div class="doc-content-title">Profile Badge</div>
+          <div class="doc-content-desc">
+            Profile Badge is used to show the current status of a user.It can be
+            used with 2 variants online | offline
+          </div>
+          <div class="example-div">
+            <div class="badge-wrapper">
+              <img
+                src="../IMAGES/avatar2.jpg"
+                alt="avatar-2 "
+                class="avatar avatar-medium"
+              />
+              <div class="badge online"></div>
+            </div>
+            <div class="badge-wrapper">
+              <img
+                src="../IMAGES/avatar2.jpg"
+                alt="avatar-2 "
+                class="avatar avatar-medium"
+              />
+              <div class="badge offline"></div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              class="code-snippet-block"
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=133%25&si=false&es=2x&wm=false&code=%253C--%2520Using%2520the%2520%27badge-wrapper%27%2520class%2520on%2520parent%2520and%2520variant%2520class%2520on%2520child%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-2%2520%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-medium%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar-2%2520%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-medium%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Number Badge -->
+
+          <div class="doc-content-title">Number Badge</div>
+          <div class="doc-content-desc">
+            Number badge is mostly used with icons to show the number of
+            notifications or number of items added in the cart etc.
+          </div>
+          <div class="example-div">
+            <div class="badge-wrapper">
+              <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+              <div class="badge-number">10</div>
+            </div>
+            <div class="badge-wrapper">
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              <div class="badge-number">99+</div>
+            </div>
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              class="code-snippet-block"
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=133%25&si=false&es=2x&wm=false&code=%253C--%2520Using%2520the%2520%27badge-wrapper%27%2520class%2520on%2520parent%2520and%2520number%2520class%2520on%2520child%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-2x%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2522%253E10%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2520fa-2x%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../Alert/alert.html">Alert</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../Button/button.html">Button</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
   </body>
