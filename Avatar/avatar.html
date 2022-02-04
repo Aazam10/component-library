@@ -5,37 +5,203 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avatar</title>
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
     <link rel="stylesheet" href="../utility.css" />
     <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
   </head>
   <body>
-    <div class="example-div">
-      <!-- PROFILE AVATAR -->
-      <img src="../IMAGES/avatar2.jpg" alt="avatar-2" class="avatar" />
-      <!-- SIZES AVATAR -->
+    <div class="container">
+      <header class="header pd-02">
+        <a href="../index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-      <img
-        src="../IMAGES/avatar2.jpg"
-        alt="avatar-2"
-        class="avatar avatar-small"
-      />
-      <img
-        src="../IMAGES/avatar2.jpg"
-        alt="avatar-2"
-        class="avatar avatar-medium"
-      />
-      <img
-        src="../IMAGES/avatar2.jpg"
-        alt="avatar-2"
-        class="avatar avatar-large"
-      />
-      <!-- Square-AVATAR -->
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../usage/usage.html">Usage</a></li>
+          </ul>
 
-      <img
-        src="../images/avatar2.jpg"
-        alt="avatar-2"
-        class="avatar square avatar-medium"
-      />
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="#" class="sidebar-active">Avatar</a></li>
+            <li><a href="#">Alert</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Avatar</div>
+          <div class="doc-content-desc">
+            Avatars are user profile pictures, usually found in circular shapes.
+            Avatars can be used for 'container' objects — projects, spaces,
+            repositories, etcetera — to give them a recognisable visual
+            identity.
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Profile Avatar CODE -->
+
+          <div class="doc-content-title">Profile Avatar</div>
+          <div class="doc-content-desc">
+            Profile Avatars can be created using the class 'avatar' inside the
+            img tag.
+          </div>
+          <div class="example-div">
+            <img src="../IMAGES/avatar2.jpg" alt="avatar-2" class="avatar" />
+            <img src="../IMAGES/avatar1.jpg" alt="avatar-1" class="avatar" />
+            <img src="../IMAGES/avatar3.jpg" alt="avatar-3" class="avatar" />
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=767.25&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C--%2520Using%2520the%2520%27avatar%27%2520class%2520name%2520--%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Furl-of-the-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2522%253E%250A%250A%2520%2520"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- SIZES AVATAR -->
+
+          <div class="doc-content-title">Sizes Avatar</div>
+          <div class="doc-content-desc">
+            Size of the avatars can be changed by adding avatar-small ( width
+            and height 2 rem) | avatar-medium ( width and height 3 rem) |
+            avatar-large ( width and height 4 rem) class to the existing avatar
+            class.
+          </div>
+          <div class="example-div">
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar avatar-small"
+            />
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar avatar-medium"
+            />
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar avatar-large"
+            />
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=767.25&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520avatar-medium%2522%253E%250A%250A%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520avatar-large%2522%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Square AVATAR -->
+
+          <div class="doc-content-title">Square Avatar</div>
+          <div class="doc-content-desc">
+            Adding a class 'square' to existing class, will generate a square
+            shaped avatar.
+          </div>
+          <div class="example-div">
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar square avatar-small"
+            />
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar square avatar-medium"
+            />
+            <img
+              src="../IMAGES/avatar2.jpg"
+              alt="avatar-2"
+              class="avatar square avatar-large"
+            />
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=767.25&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C--%2520Using%2520the%2520square%2520class%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520square%2520avatar-small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520square%2520avatar-medium%2522%253E%250A%250A%2520%2520%253Cimg%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%2520alt%253D%2522avatar-2%2522%2520class%253D%2522avatar%2520square%2520avatar-large%2522%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../usage/usage.html">Get Started</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../Alert/alert.html">Alert</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>

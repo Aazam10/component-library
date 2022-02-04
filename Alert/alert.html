@@ -5,34 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALERT</title>
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
     <link rel="stylesheet" href="../utility.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <link rel="stylesheet" href="alert.css" />
   </head>
   <body>
-    <div class="example-div alert-box">
-      <div class="alert primary">
-        <strong>Primary!</strong>This is a primary alert.
-      </div>
-      <div class="alert success">
-        <strong>Success!</strong>This is a success alert.
-      </div>
-      <div class="alert error">
-        <strong>Error! </strong>This is a error alert. check it now!
-      </div>
-      <div class="alert warning">
-        <strong>Warning!</strong>This is a warning alert.
-      </div>
-      <div class="alert outline-primary">
-        <strong>Success! </strong>This is a success alert.
-      </div>
-      <div class="alert outline-success">
-        <strong>Success! </strong>This is a success alert.
-      </div>
-      <div class="alert outline-error">
-        <strong>Error! </strong>This is a error alert.
-      </div>
-      <div class="alert outline-warning">
-        <strong>Warning! </strong>This is a warning alert.
+    <div class="container">
+      <header class="header pd-02">
+        <a href="../index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../usage/usage.html">Usage</a></li>
+          </ul>
+
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#" class="sidebar-active">Alert</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Alert</div>
+          <div class="doc-content-desc">
+            An Alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Simple Alert -->
+
+          <div class="doc-content-title">Simple Alert</div>
+          <div class="doc-content-desc">
+            Simple Alerts can be created using alert class, followed by the
+            variant name.
+          </div>
+          <div class="example-div alert-box">
+            <div class="alert primary">
+              <strong>Primary! </strong>This is a primary alert.
+            </div>
+            <div class="alert success">
+              <strong>Success! </strong>This is a success alert.
+            </div>
+            <div class="alert error">
+              <strong>Error! </strong>This is a error alert. check it now!
+            </div>
+            <div class="alert warning">
+              <strong>Warning! </strong>This is a warning alert.
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=767.25&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253EThis%2520is%2520a%2520primary%2520alert.%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253EThis%2520is%2520a%2520success%2520alert.%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%2520%253C%252Fstrong%253EThis%2520is%2520a%2520error%2520alert.%2520check%2520it%2520now%21%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253EThis%2520is%2520a%2520warning%2520alert.%250A%2520%2520%253C%252Fdiv%253E%250A"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Outline Alert -->
+
+          <div class="doc-content-title">Outline Alert</div>
+          <div class="doc-content-desc">
+            Outline alerts are created by using alert class, followed by
+            outline-variant
+          </div>
+          <div class="example-div alert-box">
+            <div class="alert outline-primary">
+              <strong>Primary ! </strong>This is a primary alert.
+            </div>
+            <div class="alert outline-success">
+              <strong>Success! </strong>This is a success alert.
+            </div>
+            <div class="alert outline-error">
+              <strong>Error! </strong>This is a error alert.
+            </div>
+            <div class="alert outline-warning">
+              <strong>Warning! </strong>This is a warning alert.
+            </div>
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=767.25&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%2520%253C%252Fstrong%253EThis%2520is%2520a%2520success%2520alert.%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%2520%253C%252Fstrong%253EThis%2520is%2520a%2520success%2520alert.%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%2520%253C%252Fstrong%253EThis%2520is%2520a%2520error%2520alert.%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%2520%253C%252Fstrong%253EThis%2520is%2520a%2520warning%2520alert.%250A%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../Avatar/avatar.html">Avatar</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../Badges/badge.html">Badge</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
   </body>
