@@ -1,0 +1,40 @@
+.list-title {
+  padding: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.list li {
+  font-size: 13px;
+  list-style: none;
+  padding: 0.7rem 1.1rem;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+.list li:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+/* Collapsable list */
+
+.list .collapsable {
+  padding: 0.7rem 1.1rem 0;
+}
+
+.list .collapsable div {
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 0.7rem;
+}
+
+.list .collapsable div:hover {
+  color: var(--primary-color);
+}
+
+.list .collapsable li {
+  padding: 0.7rem 1rem;
+}
+
+.list .collapsable:hover {
+  color: black;
+}

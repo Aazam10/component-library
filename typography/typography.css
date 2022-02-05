@@ -1,0 +1,58 @@
+/* Heading sizes */
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.h3 {
+  font-size: 2rem;
+}
+
+.h4 {
+  font-size: 1.75rem;
+}
+
+.h5 {
+  font-size: 1.5rem;
+}
+
+.h6 {
+  font-size: 1.25rem;
+}
+
+/*Alignment styling*/
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+.align-box {
+  width: 100%;
+}
+/* Extra Styles */
+
+.gray-text {
+  color: gray;
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+.small-text {
+  font-size: 0.8rem;
+}
