@@ -4,7 +4,7 @@
   border-radius: 2px;
   border: none;
   cursor: pointer;
-  color: white;
+  color: var(--white-color);
   font-weight: 600;
   margin: 10px;
 }
@@ -25,13 +25,13 @@
 /* OUTLINE BUTTON */
 
 .btn-outline {
-  background-color: white;
+  background-color: var(--white-color);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 .btn-outline:hover {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white-color);
 }
 .btn-outline-success {
   color: var(--success-color);
@@ -56,11 +56,11 @@
 }
 .btn-link {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white-color);
 }
 .link-default {
   text-decoration: none;
-  color: white;
+  color: var(--white-color);
 }
 .btn-icon {
   display: flex;

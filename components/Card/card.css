@@ -73,7 +73,7 @@
 /* CARD WITH TEXT OVERLAY */
 .card-title-overlay {
   position: absolute;
-  color: white;
+  color: var(--white-color);
   bottom: 10%;
   font-size: 1.5rem;
   font-weight: 600;
@@ -88,7 +88,7 @@
 }
 /* CARD WITH DISMISS */
 .card-dismiss {
-  color: white;
+  color: var(--white-color);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@
 
 .card-badge-text {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white-color);
   font-size: 1.5rem;
   position: absolute;
   padding: 0 0.5rem;

@@ -21,21 +21,21 @@
 }
 .outline-primary {
   border: 1px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--white-color);
   color: var(--primary-color);
 }
 .outline-success {
   border: 1px solid var(--success-color);
-  background-color: white;
+  background-color: var(--white-color);
   color: var(--success-color);
 }
 .outline-error {
   border: 1px solid var(--danger-color);
-  background-color: white;
+  background-color: var(--white-color);
   color: var(--danger-color);
 }
 .outline-warning {
   border: 1px solid var(--warning-color);
-  background-color: white;
+  background-color: var(--white-color);
   color: var(--warning-color);
 }
