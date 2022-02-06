@@ -1,6 +1,6 @@
 .card {
   width: 20rem;
-
+  border: 1px solid gray;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,13 @@
 .card-subtitle {
   font-size: 1.2rem;
 }
+.ecom-card-price {
+  display: flex;
+  gap: 0.5rem;
+}
+.offer-text {
+  color: var(--primary-color);
+}
 .btn {
   margin: 0;
 }
@@ -41,6 +48,13 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+.ecom-card-button {
+  flex-direction: column;
+  width: 100%;
+}
+.ecomm-btn {
+  width: 100%;
 }
 .card-icons {
   display: flex;

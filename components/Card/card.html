@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
+    <link rel="stylesheet" href="../typography/typography.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../utility.css" />
+    <link rel="stylesheet" href="../Button/button.css" />
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header pd-02">
+        <a href="../index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../usage/usage.html">Usage</a></li>
+          </ul>
+
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#">Alert</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#" class="sidebar-active">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Card</div>
+          <div class="doc-content-desc">
+            Cards are surfaces that display content and actions on a single
+            topic. They should be easy to scan for relevant and actionable
+            information. Elements, like text and images, should be placed on
+            them in a way that clearly indicates hierarchy.
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Simple Card -->
+
+          <div class="doc-content-subtitle">Simple Card</div>
+          <div class="doc-content-desc">
+            Simple Card is the one that contains a title, a descriptive text.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-header-text">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Card Heading
+                  </div>
+                  <div class="card-subtitle pd-side-05">Card Subheading</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, debitis. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Ex illo aliquam sapiente corporis tempora
+                voluptatem qui minima asperiores magnam architecto!
+              </div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C--%2520%2520Simple%2520Card--%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Card%2520Heading%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2522%253ECard%2520Subheading%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Main%2520Text%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!--Image Card -->
+
+          <div class="doc-content-subtitle">Image Card</div>
+          <div class="doc-content-desc">
+            Image Card is the one that contains an Image, Title & Text.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card card-shadow">
+              <div class="card-header">
+                <img
+                  class="card-image"
+                  src="../IMAGES/shoes-img.jpeg"
+                  alt="card-image"
+                />
+                <div class="card-header-text">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Our changing planet
+                  </div>
+                  <div class="card-subtitle pd-side-05">by aazam hudda</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, debitis.
+              </div>
+              <div class="card-footer pd-side-05 margin-y-05">
+                <div class="card-button">
+                  <button class="btn btn-outline">Read</button>
+                  <button class="btn btn-outline">Bookmark</button>
+                </div>
+                <div class="card-icons">
+                  <i class="fa fa-heart card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-share-alt card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v card-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C--%2520%2520Image%2520Card--%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Fshoes-img.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253EOur%2520changing%2520planet%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2522%253Eby%2520aazam%2520hudda%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Main%2520Text%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Card with Text Overlay -->
+          <div class="doc-content-subtitle">Card With Text Overlay</div>
+          <div class="doc-content-desc">
+            This is a card with a text present over it's image.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card card-shadow">
+              <div class="card-header">
+                <img
+                  class="card-image"
+                  src="../IMAGES/avatar2.jpg"
+                  alt="card-image"
+                />
+                <div class="card-header-text card-title-overlay">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Our changing planet
+                  </div>
+                  <div class="card-subtitle pd-side-05">by aazam hudda</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, debitis.
+              </div>
+              <div class="card-footer pd-side-05 margin-y-05">
+                <div class="card-button">
+                  <button class="btn btn-outline">Read</button>
+                  <button class="btn btn-outline">Bookmark</button>
+                </div>
+                <div class="card-icons">
+                  <i class="fa fa-heart card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-share-alt card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v card-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%253C--%2520%2520Card%2520With%2520Text%2520Overlay--%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2520card-title-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Our%2520changing%2520planet%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2520pd-side-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520by%2520aazam%2520hudda%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Main%2520Text%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Read%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Bookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Horizontal Card -->
+          <div class="doc-content-subtitle">Horizontal Card</div>
+          <div class="doc-content-desc">
+            This is a card displayed in a horizontal manner with image on it's
+            left and content flowing through right.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card card-shadow">
+              <div class="card-header card-horizontal">
+                <img
+                  class="card-image card-horizontal-image"
+                  src="../IMAGES/avatar2.jpg"
+                  alt="card-image"
+                />
+                <div class="card-header-text">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Our changing planet
+                  </div>
+                  <div class="card-subtitle pd-side-05">by aazam hudda</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, debitis.
+              </div>
+              <div class="card-footer pd-side-05 margin-y-05">
+                <div class="card-button">
+                  <button class="btn btn-outline">Read</button>
+                  <button class="btn btn-outline">Bookmark</button>
+                </div>
+                <div class="card-icons">
+                  <i class="fa fa-heart card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-share-alt card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v card-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%253C--%2520%2520Horizontal%2520Card--%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2520card-horizontal-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Our%2520changing%2520planet%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2522%253Eby%2520aazam%2520hudda%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Main%2520Text%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253ERead%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EBookmark%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Card With Dismiss -->
+          <div class="doc-content-subtitle">Card With Dismiss</div>
+          <div class="doc-content-desc">
+            This is a card with a dismiss button so that a user can dismiss it
+            whenever he wish to.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card card-shadow">
+              <div class="card-dismiss">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+              <div class="card-badges card-badge-none">
+                <p class="card-badge-text">New</p>
+                <i class="fa fa-heart-o card-badge-icon" aria-hidden="true"></i>
+              </div>
+              <div class="card-header">
+                <img
+                  class="card-image"
+                  src="../IMAGES/avatar2.jpg"
+                  alt="card-image"
+                />
+                <div class="card-header-text">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Our changing planet
+                  </div>
+                  <div class="card-subtitle pd-side-05">by aazam hudda</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, debitis.
+              </div>
+              <div class="card-footer pd-side-05 margin-y-05">
+                <div class="card-button">
+                  <button class="btn btn-outline">Read</button>
+                  <button class="btn btn-outline">Bookmark</button>
+                </div>
+                <div class="card-icons">
+                  <i class="fa fa-heart card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-share-alt card-icon" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v card-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%253C--%2520Card%2520With%2520Dismiss-%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badges%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card-badge-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-badge-text%2522%253ENew%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520card-badge-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Favatar2.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520pd-side-05%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Our%2520changing%2520planet%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520by%2520aazam%2520hudda%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Main%2520Text%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-side-05%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Read%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Bookmark%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520card-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Ecommerce Card -->
+
+          <div class="doc-content-subtitle">Ecommerce Card</div>
+          <div class="doc-content-desc">
+            eCommerce Card is used to display the products details i.e., Product
+            shot, Name, Type, Fixed badge, Price, Discount and stock.
+          </div>
+          <div class="example-div alert-box">
+            <div class="card card-shadow">
+              <div class="card-badges">
+                <p class="card-badge-text">New</p>
+                <i class="fa fa-heart-o card-badge-icon" aria-hidden="true"></i>
+              </div>
+              <div class="card-header">
+                <img
+                  class="card-image"
+                  src="../IMAGES/vapor14.jpg"
+                  alt="card-image"
+                />
+                <div class="card-header-text">
+                  <div class="card-title pd-side-05 margin-y-05">
+                    Nike Mercurial Vapor 14 Club TF
+                  </div>
+                  <div class="card-subtitle pd-side-05">Turf Football Shoe</div>
+                </div>
+              </div>
+              <div class="card-text pd-side-05 margin-y-05 ecom-card-price">
+                <p class="price">Rs. 5000</p>
+                <p class="text-strike gray-text">4995</p>
+                <p class="offer-text">19% off</p>
+              </div>
+              <div class="card-footer pd-side-05 margin-y-05">
+                <div class="card-button ecom-card-button">
+                  <button class="btn btn-primary ecomm-btn align-center">
+                    Add to Cart
+                  </button>
+                  <button class="btn btn-primary ecomm-btn align-center">
+                    Add to Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=661.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=160%25&si=false&es=2x&wm=false&code=%253C--%2520Ecommerce%2520Card-%253E%250A%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badges%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-badge-text%2522%253ENew%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2520card-badge-icon%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252FIMAGES%252Fvapor14.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Nike%2520Mercurial%2520Vapor%252014%2520Club%2520TF%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pd-side-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Turf%2520Football%2520Shoe%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520pd-side-05%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520margin-y-05%2520ecom-card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253ERs.%25205000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-strike%2520gray-text%2522%253E4995%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer-text%2522%253E19%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-side-05%2520margin-y-05%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2520ecom-card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ecomm-btn%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ecomm-btn%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../Button/button.html">Button</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../image/image.html">Image</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
