@@ -12,29 +12,27 @@
   transition: all 0.3s ease-in-out;
 }
 
-.list li:hover {
+.list .spaced-list:hover {
   cursor: pointer;
   color: var(--primary-color);
 }
-/* Collapsable list */
 
-.list .collapsable {
-  padding: 0.7rem 1.1rem 0;
+/* Stacked List */
+
+.list-stacked {
+  background-color: white;
+  padding: 1.5rem 1rem;
 }
 
-.list .collapsable div {
-  transition: all 0.3s ease-in-out;
-  padding-bottom: 0.7rem;
+.list-stacked li {
+  margin: 0.5rem 0rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
 }
 
-.list .collapsable div:hover {
-  color: var(--primary-color);
-}
-
-.list .collapsable li {
-  padding: 0.7rem 1rem;
-}
-
-.list .collapsable:hover {
+.list-stacked li:hover {
+  cursor: pointer;
   color: black;
 }
