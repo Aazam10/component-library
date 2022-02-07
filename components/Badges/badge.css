@@ -2,6 +2,7 @@
   width: max-content;
   position: relative;
 }
+
 .badge {
   width: 12px;
   height: 12px;
@@ -11,12 +12,15 @@
   bottom: 5px;
   right: 5px;
 }
+
 .online {
   background-color: var(--success-color);
 }
+
 .offline {
   background-color: var(--danger-color);
 }
+
 .badge-number {
   display: flex;
   justify-content: center;

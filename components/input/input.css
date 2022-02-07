@@ -3,9 +3,11 @@
   margin-bottom: 5px;
   font-size: 1rem;
 }
+
 .input-group {
   width: 80%;
 }
+
 .input {
   border: 2px solid #999;
   border-radius: 2px;
@@ -13,22 +15,28 @@
   outline: none;
   width: 100%;
 }
+
 .input:focus {
   border: 1px solid var(--primary-color);
 }
+
 .input-group-error {
   color: var(--danger-color);
 }
+
 .input-error {
   border: 1px solid var(--danger-color);
 }
+
 .input-error:focus {
   border: 1px solid var(--danger-color);
 }
+
 .input-error-message {
   margin-top: 5px;
   color: var(--danger-color);
 }
+
 /* radio and checkbox */
 .radio label,
 .checkbox label {
