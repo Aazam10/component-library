@@ -1,6 +1,6 @@
 .card {
   width: 20rem;
-
+  border: 1px solid var(--gray-color);
   height: auto;
   display: flex;
   flex-direction: column;
@@ -15,18 +15,31 @@
   border-radius: 2px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
+
 .card-image {
   border-radius: 3px 3px 0 0;
   width: 100%;
   height: auto;
 }
+
 .card-title {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .card-subtitle {
   font-size: 1.2rem;
 }
+
+.ecom-card-price {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.offer-text {
+  color: var(--primary-color);
+}
+
 .btn {
   margin: 0;
 }
@@ -37,11 +50,22 @@
   justify-content: space-between;
   gap: 1rem;
 }
+
 .card-button {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
+.ecom-card-button {
+  flex-direction: column;
+  width: 100%;
+}
+
+.ecomm-btn {
+  width: 100%;
+}
+
 .card-icons {
   display: flex;
   gap: 1rem;
@@ -59,22 +83,25 @@
 /* CARD WITH TEXT OVERLAY */
 .card-title-overlay {
   position: absolute;
-  color: white;
+  color: var(--white-color);
   bottom: 10%;
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 /* HORIZONTAL CARD */
 .card-horizontal {
   display: flex;
   align-items: center;
 }
+
 .card-horizontal-image {
   width: 40%;
 }
+
 /* CARD WITH DISMISS */
 .card-dismiss {
-  color: white;
+  color: var(--white-color);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -95,13 +122,14 @@
 
 .card-badge-text {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white-color);
   font-size: 1.5rem;
   position: absolute;
   padding: 0 0.5rem;
   top: 10px;
   z-index: 2;
 }
+
 .card-badge-icon {
   color: var(--primary-color);
   cursor: pointer;
@@ -111,6 +139,7 @@
   top: 10px;
   z-index: 2;
 }
+
 .card-badge-none,
 .card-image-none,
 .card-dismiss-none,

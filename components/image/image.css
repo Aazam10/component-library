@@ -3,12 +3,15 @@
   height: 8rem;
   object-fit: cover;
 }
+
 .image-square {
   border-radius: 5px;
 }
+
 .image-round {
   border-radius: 50%;
 }
+
 .image-responsive {
   width: 100%;
   height: auto;
