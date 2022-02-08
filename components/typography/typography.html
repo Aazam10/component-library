@@ -5,33 +5,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Typography</title>
-    <link rel="stylesheet" href="typography.css" />
+    <script src="https://use.fontawesome.com/35bf05a347.js"></script>
     <link rel="stylesheet" href="/utility.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="typography.css" />
   </head>
   <body>
-    <h2>Different types of heading</h2>
-    <div class="example-div alert-box">
-      <h1 class="h1">Heading 1</h1>
-      <h2 class="h2">Heading 2</h2>
-      <h3 class="h3">Heading 3</h3>
-      <h4 class="h4">Heading 4</h4>
-      <h5 class="h5">Heading 5</h5>
-      <h6 class="h6">Heading 6</h6>
-    </div>
-    <h2>Extra styles</h2>
-    <div class="example-div alert-box">
-      <p class="gray-text">This is a gray text.</p>
-      <p class="text-strike">This text has a line going through it.</p>
-      <p class="text-underline">This text is underlined.</p>
-      <p class="small-text">This is a small text</p>
-    </div>
+    <div class="container">
+      <header class="header pd-02">
+        <a href="/index.html" class="header-logo">FootyUI</a>
+        <nav class="navbar">
+          <ul class="nav-pills">
+            <li>
+              <a href="#"
+                ><i class="fa fa-2x fa-github nav-icon" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <h2>Alignments</h2>
+      <div class="doc-container">
+        <div class="sidebar">
+          <!-- USAGE LIST START -->
+          <div class="sidebar-main-topic">Getting Started</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="/usage/usage.html">Usage</a></li>
+          </ul>
 
-    <div class="example-div alert-box">
-      <div class="align-box align-left">I am a left aligned text</div>
-      <div class="align-box align-center">I am a centered text</div>
-      <div class="align-box align-right">I am a right aligned text</div>
+          <!-- Components List Start -->
+          <div class="sidebar-main-topic">Components</div>
+          <ul class="sidebar-sub-topic">
+            <li><a href="../Avatar/avatar.html">Avatar</a></li>
+            <li>
+              <a href="../Alert/alert.html">Alert</a>
+            </li>
+            <li><a href="../Badges/badge.html">Badge</a></li>
+            <li><a href="../Button/button.html">Button</a></li>
+            <li><a href="../Card/card.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+            <li>
+              <a href="../typography/typography.html" class="sidebar-active"
+                >Typography</a
+              >
+            </li>
+            <li>
+              <a href="../toast/toast.html">Toast</a>
+            </li>
+            <li>
+              <a href="../list/list.html">List</a>
+            </li>
+          </ul>
+        </div>
+        <div class="doc-content">
+          <div class="doc-content-title">Typography</div>
+          <div class="doc-content-desc">
+            Documentation and text utilities which FootyUI follows that you can
+            use in your project.
+          </div>
+          <div class="doc-line"></div>
+
+          <!--Heading -->
+
+          <div class="doc-content-subtitle">Heading</div>
+          <div class="doc-content-desc">
+            You can use heading from h1 to h6 for different headings.
+          </div>
+          <div class="example-div alert-box">
+            <h1 class="h1">Heading 1</h1>
+            <h2 class="h2">Heading 2</h2>
+            <h3 class="h3">Heading 3</h3>
+            <h4 class="h4">Heading 4</h4>
+            <h5 class="h5">Heading 5</h5>
+            <h6 class="h6">Heading 6</h6>
+          </div>
+
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=658.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522h1%2522%253EHeading%25201%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522h2%2522%253EHeading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522h3%2522%253EHeading%25203%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522h4%2522%253EHeading%25204%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522h5%2522%253EHeading%25205%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522h6%2522%253EHeading%25206%253C%252Fh6%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Alignment -->
+
+          <div class="doc-content-subtitle">Alignment</div>
+          <div class="doc-content-desc">
+            You can use .align-left, .align-center and .align-right classes for
+            aligning content to the left, center and right.
+          </div>
+          <div class="example-div alert-box">
+            <div class="align-box align-left">I am a left aligned text</div>
+            <div class="align-box align-center">I am a centered text</div>
+            <div class="align-box align-right">I am a right aligned text</div>
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=658.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=250%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522align-box%2520align-left%2522%253EI%2520am%2520a%2520left%2520aligned%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522align-box%2520align-center%2522%253EI%2520am%2520a%2520centered%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522align-box%2520align-right%2522%253EI%2520am%2520a%2520right%2520aligned%2520text%253C%252Fdiv%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- Extra Styles -->
+          <div class="doc-content-subtitle">Extra Styles</div>
+          <div class="doc-content-desc">
+            You can use .gray-text to make your text gray, .text-strike to have
+            a line on top of text and .text-underline class to give underline
+            under the text
+          </div>
+          <div class="example-div alert-box">
+            <p class="gray-text">This is a gray text.</p>
+            <p class="text-strike">This text has a line going through it.</p>
+            <p class="text-underline">This text is underlined.</p>
+            <p class="small-text">This is a small text</p>
+          </div>
+          <!-- IFRAME -->
+
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=748&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=250%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-strike%2522%253EThis%2520text%2520has%2520a%2520line%2520going%2520through%2520it.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520text%2520is%2520underlined.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small-text%2522%253EThis%2520is%2520a%2520small%2520text%253C%252Fp%253E"
+              class="code-snippet-block"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="doc-line"></div>
+
+          <!-- FOOTER -->
+
+          <footer class="footer">
+            <div class="footer-prev-page">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  d="M15 6l-6 6l6 6"
+                ></path>
+              </svg>
+              <a href="../input/input.html">Input</a>
+            </div>
+            <div class="footer-next-page">
+              <a href="../toast/toast.html">Toast</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
   </body>
 </html>
