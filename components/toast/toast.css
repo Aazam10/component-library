@@ -1,17 +1,42 @@
 .toast {
-  padding: 1rem;
-  font-size: 0.8rem;
+  display: flex;
+
   width: 15rem;
-  background-color: var(--white-color);
-  text-align: center;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
+  min-width: max-content;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 1rem;
+  gap: 3rem;
+
+  margin-left: 1rem;
 }
 
 .sucess {
-  border: 1px solid var(--success-color);
+  background-color: var(--success-color);
+  justify-content: space-between;
 }
 
 .failure {
-  border: 1px solid var(--danger-color);
+  background-color: var(--danger-color);
+}
+
+.toast-action {
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.toast-action:hover {
+  cursor: pointer;
+}
+
+.toast-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.toast-close:hover {
+  cursor: pointer;
 }

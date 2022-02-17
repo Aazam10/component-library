@@ -76,7 +76,9 @@
           </div>
           <div class="example-div">
             <div class="toast">
-              <p>This is Primary toast</p>
+              <p class="toast-message">Can't send photo.Retry in 5 seconds.</p>
+              <p class="toast-action">Retry</p>
+              <p class="toast-close">x</p>
             </div>
           </div>
 
@@ -84,7 +86,7 @@
 
           <div class="code-snippet-sm">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C--%2520Primary%2520Toast-%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%253EThis%2520is%2520Primary%2520toast%253C%252Fp%253E%2520%250A%2520%2520%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-message%2522%253ECan%27t%2520send%2520photo.Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-action%2522%253ERetry%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-close%2522%253Ex%253C%252Fp%253E%250A%253C%252Fdiv%253E"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
@@ -104,17 +106,21 @@
           </div>
           <div class="example-div">
             <div class="toast sucess">
-              <p>This is toast used when action is completed successfully</p>
+              <p class="toast-message">Success</p>
+              <p class="toast-close">x</p>
             </div>
+
             <div class="toast failure">
-              <p>This is tost used when action is not completed successfully</p>
+              <p class="toast-message">Failure</p>
+              <p class="toast-action">Retry</p>
+              <p class="toast-close">x</p>
             </div>
           </div>
           <!-- IFRAME -->
 
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C--%2520Success%2520and%2520Failure%2520Toast-%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522toast%2520sucess%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%253EThis%2520is%2520toast%2520used%2520when%2520action%2520is%2520completed%2520successfully%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522toast%2520failure%2522%253E%250A%2520%2520%250A%2520%2520%253Cp%253EThis%2520is%2520tost%2520used%2520when%2520action%2520is%2520not%2520completed%2520successfully%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C--%2520Success%2520and%2520Failure%2520Toast-%253E%250A%2520%2520%250A%2520%253Cdiv%2520class%253D%2522toast%2520sucess%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-message%2522%253ESuccess%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-close%2522%253Ex%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522toast%2520failure%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-message%2522%253EFailure%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-action%2522%253ERetry%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-close%2522%253Ex%253C%252Fp%253E%250A%253C%252Fdiv%253E"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
