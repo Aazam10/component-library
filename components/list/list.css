@@ -5,9 +5,9 @@
 }
 
 .list li {
-  font-size: 13px;
+  /* font-size: 13px; */
   list-style: none;
-  padding: 0.7rem 1.1rem;
+  padding: 0.8rem;
   font-weight: 400;
   transition: all 0.3s ease-in-out;
 }
@@ -20,7 +20,7 @@
 /* Stacked List */
 
 .list-stacked {
-  background-color: white;
+  /* background-color: white; */
   padding: 1.5rem 1rem;
 }
 
