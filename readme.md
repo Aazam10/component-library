@@ -130,4 +130,4 @@ There are different types of List present in the library.
 
 ## Desktop Version
 
-<img src="../components/IMAGES/homepage.png">
+<img src="./components/IMAGES/homepage.png">
