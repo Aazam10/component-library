@@ -127,3 +127,7 @@ There are different types of List present in the library.
 
 - Simple List
 - Stacked List
+
+## Desktop Version
+
+<img src="../components/IMAGES/homepage.png">
