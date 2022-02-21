@@ -42,9 +42,8 @@ Avatar is used to display the image of a user.
 There are different types of Avatars present in the library.
 
 - Profile Avatar
-- Small Alert
-- Medium Alert
-- Large Alert
+- Different sizes of Avatar
+- Square Avatar
 
 ## [Badge](https://footy-ui.netlify.app/components/badges/badge)
 
