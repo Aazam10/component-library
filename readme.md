@@ -21,6 +21,10 @@
 - [List](#list)
 - [toast](#toast)
 - [Typography](#typography)
+- [Modal](#modal)
+- [Grid](#grid)
+- [Rating](#rating)
+- [Navigation](#navigation)
 
 ---
 
