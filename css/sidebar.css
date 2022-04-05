@@ -1,7 +1,13 @@
 .sidebar {
   background-color: #fff;
-  flex: 0 0 250px;
+  width: 16rem;
   margin-right: 3rem;
+  height: calc(100vh - 135px);
+  overflow-y: auto;
+  position: fixed;
+  left: 3rem;
+  margin-top: 135px;
+  top: 0;
 }
 .sidebar-main-topic {
   border-bottom: 1px solid #d9d9d9;
