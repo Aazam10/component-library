@@ -127,6 +127,31 @@ There are different types of List present in the library.
 - Simple List
 - Stacked List
 
+## [Navigation](https://footy-ui-temp.netlify.app/components/navbar/navbar)
+
+Navigation is used to navigate to different sections or pages of a website.
+
+## [Modal](https://footy-ui-temp.netlify.app/components/modal/modal)
+
+Modal is used to ask an action among choices from a user.
+
+## [Grid](https://footy-ui-temp.netlify.app/components/grid/grid)
+
+Grid is used to divide a web page into sections.
+
+There are two items and three items grid present in the library.
+
+- Two Items Grid
+- Three Items Grid
+
+## [Rating](https://footy-ui-temp.netlify.app/components/ratings/ratings.html)
+
+Rating is used to ask a rating or a service or product from a user.
+
+There is a single rating present in the library.
+
+- Simple Rating
+
 ## Desktop Version
 
 <img src="./components/IMAGES/homepage.png">
